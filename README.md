@@ -3,10 +3,7 @@
 
 Vulnerable C++ project
 
-## Testing with Snyk
-
-Dependencies are in `vendor`. Clone this project, and run `snyk unmanaged test` from the project folder. To import the results in Snyk App, run `snyk unmanaged monitor`.
-
-
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpilvikala%2Fc-goof.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpilvikala%2Fc-goof?ref=badge_large)
+=======
+Dependencies are in `vendor`. Clone this project, and run `snyk test --unmanaged` from the project folder. To import the results in Snyk App, run `snyk monitor --unmanaged`.
